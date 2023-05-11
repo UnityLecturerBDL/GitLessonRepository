@@ -4,7 +4,7 @@ public class CharacterMover : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetMouseButton(0))
         {
             transform.position += Vector3.right * 10;
         }
